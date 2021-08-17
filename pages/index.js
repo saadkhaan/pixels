@@ -312,7 +312,7 @@ export default function index() {
                     <IoGameController color="white" size="36" />
                   </Card>
                   <Card
-                    cardTitle={"Custom Development"}
+                    cardTitle={"Custom Web Development"}
                     cardDescription={
                       "I build with your goals in mind, whether you want a simple flexible website, a custom storefront or a SaaS product."
                     }
@@ -372,7 +372,7 @@ export default function index() {
                   </p>
                   <Button
                     btnTitle="Get Started"
-                    btnLink="#"
+                    btnLink="/contact"
                     bg="white"
                     color={`#5F2EEA`}
                     weight="600"
