@@ -84,17 +84,6 @@ export default function index() {
         </svg>
         <section className="hero container text-center px-4 py-24 sm:py-0 sm:pt-48 sm:pb-24">
           <div className="sm:w-10/12 2xl:w-8/12 mx-auto space-y-6">
-            <div className="usw relative">
-              <p className="text-2xl sm:text-3xl font-bold text-gray-700 w-max mx-auto">
-                User-Centric Websites
-              </p>
-              <div className="w-10/12 sm:w-6/12 absolute tooltip hidden text-sm bg-gray-900 text-white px-4 py-3 left-8 sm:-top-24 sm:left-64 sm:italic leading-normal">
-                A user-centric website is one that is designed and built with
-                your user’s preferences and needs in mind. It’s easy for
-                visitors to navigate, enjoyable to read, and delightful to look
-                at.
-              </div>
-            </div>
             <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900">
               I create website designs your users will love and convert
             </h1>

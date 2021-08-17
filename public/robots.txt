@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /projects/newspage
+Disallow: /projects/cwl
+Disallow: projects/limousine-web-design
+Disallow: /projects/valleydez
+
+# Sitemap: http://www.pixelsbit.com/sitemap.xml

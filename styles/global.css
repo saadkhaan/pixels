@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+:root {--easing: cubic-bezier(0.5, 0.7, 0.4, 1);}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@media (min-width: 640px) {
+    nav ul li {
+        @apply block p-2 sm:mr-6 sm:flex;
+    }
+    nav a {
+        @apply text-gray-900 relative overflow-hidden;
+    }
+    
+    nav a::after {
+        display: block;
+        content: '';
+        height: 2px;
+        background-color: #111827;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        transform: translateX(-101%);
+    }
+    
+    nav a:hover::after {
+        transition: transform 0.3s var(--easing);
+        transform: translateX(0)
+    }
+    
+    nav a.animate-out::after {
+        transition: transform 0.3s var(--easing);
+        transform: translateX(100%);
+    }
+    
+    .info-wrapper h3::before {
+        content: "";
+        margin-right: max(1.25rem,1.38vw);
+        width: 4.17vw;
+        width: max(3.75rem,4.17vw);
+        height: 1px;
+        background-color: #4B5563;
+        transform: scaleX(0);
+        transform-origin: 100% 50%;
+        top: 1vh;
+    
+        position: absolute;
+        right: 100%;
+    
+        transform: scaleX(1);
+        transition: transform 1s ease;
+    }
+
+    .scroll-more {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* .scroll-more, .scroll-more p {
+        mix-blend-mode: difference;
+    } */
+    .bg-triangle {
+        top: 150px;
+        left: 0;
+        background: #f2f4f7;
+        width: 55em;
+        height: 55em;
+        position: absolute;
+        z-index: -1;
+        transform: translate(-50%, 0) rotate(0deg) skew(-10deg, -10deg);
+        animation: rotate 500s linear infinite;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: translate(-50%, 0) rotate(360deg) skew(10deg, 10deg);
+        }
+    }
+}
+
+/* .content-wrapper h1{
+    mix-blend-mode: difference;
+} */
+
+.blob {
+    z-index: -1;
+}
+.headingstroke {
+    top: 49%;
+    left: 50.3%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1px -1px 0 #00A0B0, 1px -1px 0 #00A0B0, -1px 1px 0 #00A0B0, 1px 1px 0 #00A0B0;
+    z-index: -1;
+}
+
+/* .portfolio a {
+    @apply text-gray-500 sm:text-gray-300 hover:text-white;
+} */
+
+.testimonial-component:not(:nth-child(1)) {
+    margin-top: 3rem;
+}
+
+blockquote::before {
+    content: '“';
+    display: inline-block;
+    position: absolute;
+    left: -.5em;
+    top: -.5rem;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+svg.scrollToMore path,
+.right-column li:hover svg path {
+        stroke-dasharray: 100;
+        stroke-dashoffset: 300;
+        -webkit-animation: dash 5s linear alternate infinite;
+        animation: dash 5s linear reverse infinite;
+    }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 822;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+@tailwind utilities;

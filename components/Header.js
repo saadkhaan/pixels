@@ -3,12 +3,15 @@ import Link from "next/link";
 
 export default function Header() {
   const [menu, setMenu] = useState(false);
+    const handleToggle = () => {
+      setShowMenu(!setMenu);
+    };
   console.log(menu);
 
   return (
-    <header className="absolute w-full px-4 py-8 z-10">
-      <div className="container">
-        <div className="flex items-center justify-between">
+    <header className="w-full absolute py-6 font-sans z-10">
+      <div className="container items-center sm:flex sm:justify-between">
+        <div className="flex items-center justify-between px-4">
           <div className="logo w-36 sm:w-auto">
             <svg
               width="158"
@@ -22,74 +25,63 @@ export default function Header() {
               />
             </svg>
           </div>
-          <div className="hamburger sm:hidden" onClick={() => setMenu(!menu)}>
-            {menu ? (
+          <div className="sm:hidden">
+            <button
+              onClick={handleToggle}
+              type="button"
+              className="text-gray-900 hover:text-gray-500 focus:outline-none"
+            >
               <svg
+                className="w-6 h-6 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+                viewBox="0 0 20 20"
+                fill="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
+                {menu ? (
+                  <path
+                    fillRule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                ) : (
+                  <path
+                    fillRule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clipRule="evenodd"
+                  />
+                )}
               </svg>
-            ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            )}
+            </button>
           </div>
-          <nav className="hidden sm:flex">
-            <ul className="sm:flex gap-x-12">
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/">About</Link>
-              </li>
-              <li>
-                <Link href="/">Products</Link>
-              </li>
-              <li>
-                <Link href="/">Contact</Link>
-              </li>
-            </ul>
-          </nav>
         </div>
-        <div className={menu ? "block bg-[#F4F9FF] py-4 mt-2" : "hidden"}>
-          <nav>
-            <ul>
-              <li className="hover:bg-gray-200 px-2 py-2">
-                <Link href="/">Home</Link>
-              </li>
-              <li className="hover:bg-gray-200 px-2 py-2">
-                <Link href="/">About</Link>
-              </li>
-              <li className="hover:bg-gray-200 px-2 py-2">
-                <Link href="/">Products</Link>
-              </li>
-              <li className="hover:bg-gray-200 px-2 py-2">
-                <Link href="/">Contact</Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
+
+        <nav
+          className={`px-4 pt-4 pb-2 sm:block bg-gray-100 text-lg font-black sm:bg-transparent ${
+            menu ? "block" : "hidden"
+          }`}
+        >
+          <ul className="ml-0 mb-0 sm:flex font-medium">
+            <li className="py-3 sm:py-2">
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </li>
+            <li className="py-3 sm:py-2">
+              <Link href="/about">About</Link>
+            </li>
+            <li className="py-3 sm:py-2">
+              <Link href="/services">Services</Link>
+            </li>
+            <li className="sm:hidden pt-3">
+              <Link href="/contact">Hire Me</Link>
+            </li>
+            <li className="sm:mr-0 bg-[#569EC2] rounded-full px-6 hidden sm:flex">
+              <Link href="/contact">
+                <a className="text-white">Hire Me</a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   );
