@@ -38,7 +38,7 @@ class MyDocument extends Document {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
             
-              gtag('config', ${`G - KXPZNDPMVE`});`,
+              gtag('config', ${`G-KXPZNDPMVE`});`,
             }}
           />
         </Head>
