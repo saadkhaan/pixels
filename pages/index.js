@@ -30,6 +30,7 @@ export default function index() {
             name="description"
             content="Hire Freelance Website Developer to create eye-catching and user-friendly websites to generate web traffic and revenue."
           ></meta>
+          <link rel="canonical" href="https://pixelsbit.com" />
         </Head>
 
         <svg

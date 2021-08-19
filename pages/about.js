@@ -8,6 +8,11 @@ export default function about() {
       <>
         <Head>
           <title>Freelance Front-end Developer and Web Designer</title>
+          <meta
+            name="description"
+            content="I am a freelance front-end developer aiming to create best user interface and user experience for you to make more sales."
+          />
+          <link rel="canonical" href="https://pixelsbit.com/about" />
         </Head>
         <div className="container px-4 py-32 sm:py-0 sm:pt-48 sm:pb-24">
           <div className="grid grid-cols-5 gap-6">

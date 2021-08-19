@@ -12,6 +12,7 @@ export default function contact() {
           name="description"
           content="If you are in need to hire a freelance web designer, then let's connect now."
         />
+        <link rel="canonical" href="https://pixelsbit.com/contact" />
       </Head>
       <div className="container px-4 py-32 sm:py-0 sm:pt-48 sm:pb-24">
         <h1 className="text-center font-bold text-4xl mb-12">
