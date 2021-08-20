@@ -23,8 +23,8 @@ export default function services() {
         <link rel="canonical" href="https://www.pixelsbit.com/services" />
       </Head>
       <div className="container px-4 py-32 sm:py-0 sm:pt-48 sm:pb-24 text-center">
-        <div className="flex flex-wrap gap-y-6">
-          <div className="w-1/3 px-3 text-left">
+        <div className="flex flex-wrap lg:items-stretch h-full gap-y-6">
+          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
               cardTitle={"Website Design"}
               cardDescription={
@@ -34,7 +34,7 @@ export default function services() {
               <MdRateReview color="white" size="36" />
             </Card>
           </div>
-          <div className="w-1/3 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
               cardTitle={"Web Development"}
               cardDescription={
@@ -44,7 +44,7 @@ export default function services() {
               <FaChartLine color="white" size="36" />
             </Card>
           </div>
-          <div className="w-1/3 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
               cardTitle={"User Experience Design"}
               cardDescription={
@@ -54,7 +54,7 @@ export default function services() {
               <IoGameController color="white" size="36" />
             </Card>
           </div>
-          <div className="w-1/3 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
               cardTitle={"Custom Development"}
               cardDescription={
@@ -64,7 +64,7 @@ export default function services() {
               <FaCode color="white" size="36" />
             </Card>
           </div>
-          <div className="w-1/3 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
               cardTitle={"SEO Services"}
               cardDescription={
@@ -74,7 +74,7 @@ export default function services() {
               <FaSearch color="white" size="36" />
             </Card>
           </div>
-          <div className="w-1/3 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
               cardTitle={"Social Media Marketing"}
               cardDescription={

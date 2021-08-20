@@ -18,8 +18,8 @@ export default function contact() {
         <h1 className="text-center font-bold text-4xl mb-12">
           Contact/Hire Me
         </h1>
-        <div className="grid grid-cols-2 gap-6">
-          <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="order-1 sm:order-none">
             <form
               id="fs-frm"
               name="services-contact-form"
