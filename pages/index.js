@@ -219,20 +219,16 @@ export default function index() {
 
             <div className="card-container mt-12 sm:mt-0">
               <div className="sm:h-[23rem] rounded-xl shadow-xl overflow-hidden mb-6">
-                <Link href="/">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src="/valleydez-full.jpg"
-                      alt="Ecommerce Website Development"
-                      placeholder="blur"
-                      blurDataURL="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
-                      width={200}
-                      height={418}
-                      layout="responsive"
-                      className="transition duration-2000 ease-in-out sm:hover:-translate-y-3/4"
-                    />
-                  </a>
-                </Link>
+                <Image
+                  src="/valleydez-full.jpg"
+                  alt="Ecommerce Website Development"
+                  placeholder="blur"
+                  blurDataURL="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
+                  width={200}
+                  height={418}
+                  layout="responsive"
+                  className="transition duration-2000 ease-in-out sm:hover:-translate-y-3/4"
+                />
               </div>
               <p className="text-3xl sm:text-base">
                 E-commerce Website Development for a Fashion Boutique
