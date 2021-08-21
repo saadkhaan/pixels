@@ -24,11 +24,11 @@ export default function index() {
       <>
         <Head>
           <title>
-            Freelance Website Designer | Freelance Ecommerce Website Developer
+            Hire Freelance Website Designer | Freelance Ecommerce Website Developer
           </title>
           <meta
             name="description"
-            content="Hire Freelance Website Developer to create eye-catching and user-friendly websites to generate web traffic and revenue."
+            content="Hire Freelance Website Designer to create eye-catching and user-friendly websites to generate web traffic and revenue."
           ></meta>
           <link rel="canonical" href="https://www.pixelsbit.com" />
         </Head>

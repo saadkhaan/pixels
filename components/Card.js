@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card(props) {
   return (
-    <div className="flex flex-col h-full sm:flex-1 bg-gray-200 px-4 py-5 rounded-[20px] space-y-2">
+    <div className="h-full sm:flex-1 bg-gray-200 px-4 py-5 rounded-[20px] space-y-2">
       <div className="flex items-center justify-center rounded-full bg-pb-green w-16 h-16">
         {/* <img src={props.icon} alt="icon" className="h-10" /> */}
         {props.children}
