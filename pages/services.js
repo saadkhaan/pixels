@@ -20,7 +20,7 @@ export default function services() {
           name="description"
           content="Looking for website design services? With decades of experience, Pixelsbit provides customized web design services to help you reach and convert more potential customers."
         />
-        <link rel="canonical" href="https://www.pixelsbit.com/services" />
+        <link rel="canonical" href="https://pixelsbit.com/services" />
       </Head>
       <div className="container px-4 py-32 sm:py-0 sm:pt-48 sm:pb-24 text-center">
         <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900 mb-6">
