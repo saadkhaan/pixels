@@ -40,6 +40,11 @@ class MyDocument extends Document {
                         })(window, document, "clarity", "script", "7yaxxd6y7w");`,
             }}
           />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+
           <script
             async
             dangerouslySetInnerHTML={{
@@ -49,10 +54,6 @@ class MyDocument extends Document {
               <!-- VISA Tracking Code for pixelsbit.com -->`,
             }}
           />
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
         </body>
       </Html>
     );
