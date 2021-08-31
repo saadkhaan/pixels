@@ -24,7 +24,7 @@ export default function services() {
       </Head>
       <div className="container px-4 py-32 sm:py-0 sm:pt-48 sm:pb-24 text-center">
         <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900 mb-6">
-          Hire a Freelancer for Website Design Services and Online Marketing
+          Web Design and Online Marketing Services
         </h1>
         <div className="flex flex-wrap lg:items-stretch h-full gap-y-6">
           <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">

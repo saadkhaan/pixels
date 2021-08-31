@@ -238,9 +238,6 @@ export default function index() {
               </p>
             </div>
           </div>
-          {/* <div className="text-center mt-4">
-            <Button btnTitle={`View All Projects`} btnLink={`/`} />
-          </div> */}
         </section>
 
         <section className="homePageServices mt-20 px-4 xl:px-0">
@@ -336,9 +333,6 @@ export default function index() {
                     <IoCall color="white" size="36" />
                   </Card>
                 </div>
-                {/* <div className="text-center xl:hidden">
-                  <Button btnTitle={`View All Services`} btnLink={`services`} />{" "}
-                </div> */}
               </div>
             </div>
           </div>
