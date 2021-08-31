@@ -38,22 +38,20 @@ class MyDocument extends Document {
                         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
                         })(window, document, "clarity", "script", "7yaxxd6y7w");`,
-            }}
-          />
+            }}>
+          </script>
         </Head>
         <body>
           <Main />
           <NextScript />
 
-          <script
-            async
-            dangerouslySetInnerHTML={{
+          <script dangerouslySetInnerHTML={{
               __html: `<!-- VISA Tracking Code for pixelsbit.com -->
               <script>
               (function(v,i,s,a){if(!v._visaSettings){v._visaSettings={};}v._visaSettings["8eb55897-0639-11ec-b589-901b0edac50a"]={v:"0.3",s:"8eb55897-0639-11ec-b589-901b0edac50a",a:"1"};_v=i.getElementsByTagName("body")[0];_a=_v;_i=i.createElement("script");_s=_i;_s.defer="defer";_s.src=s+a+v._visaSettings["8eb55897-0639-11ec-b589-901b0edac50a"].v;_a.appendChild(_s);})(window,document,"//app-worker.visitor-analytics.io/main",".js?s=8eb55897-0639-11ec-b589-901b0edac50a&v=")</script>
               <!-- VISA Tracking Code for pixelsbit.com -->`,
-            }}
-          />
+            }}></script>
+            
         </body>
       </Html>
     );
