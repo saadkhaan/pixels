@@ -23,9 +23,22 @@ export default function services() {
         <link rel="canonical" href="https://pixelsbit.com/services" />
       </Head>
       <div className="container px-4 py-32 sm:py-0 sm:pt-48 sm:pb-24 text-center">
-        <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900 mb-6">
-          Web Design and Online Marketing Services
-        </h1>
+        <div className="w-8/12 mx-auto mb-12">
+          <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900 mb-6">
+            Web Design and
+            <br />
+            Online Marketing Services
+          </h1>
+          <p className="text-gray-600">
+            Having a great website is not the only solution to take your
+            business online. To compete with billions of websites on the
+            internet, you need to market it as well. And to market your
+            business, I have developed some of the best technical SEO and Social
+            Media Marketing strategies that not only rank your business website
+            on Google but bring it in front of millions of customers looking for
+            your services or products.
+          </p>
+        </div>
         <div className="flex flex-wrap lg:items-stretch h-full gap-y-6">
           <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
