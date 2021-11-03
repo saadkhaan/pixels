@@ -24,7 +24,8 @@ export default function index() {
       <>
         <Head>
           <title>
-            Hire Freelance Website Designer | Freelance Ecommerce Website Developer
+            Hire Freelance Website Designer | Freelance Ecommerce Website
+            Developer
           </title>
           <meta
             name="description"
@@ -86,7 +87,7 @@ export default function index() {
         <section className="hero container text-center px-4 py-24 sm:py-0 sm:pt-48 sm:pb-24">
           <div className="sm:w-10/12 2xl:w-8/12 mx-auto space-y-6">
             <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900">
-              I create website designs your users will love and convert
+              I Create Profitable Websites for Chauffeurs
             </h1>
             <div className="intro text-gray-600 text-2xl sm:text-base leading-relaxed sm:leading-8">
               <p>
