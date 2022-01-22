@@ -114,7 +114,7 @@ export default function index() {
           </div>
         </section>
 
-        <section className="homePageServices my-5 sm:my-20 px-4 xl:px-0">
+        <section className="homePageServices my-2 sm:my-20 px-4 xl:px-0">
           <div className="container">
             <div className="w-full xl:flex gap-6">
               <div className="w-full xl:w-4/12">
