@@ -13,8 +13,8 @@ import { MdRateReview } from "react-icons/md";
 import { FaChartLine } from "react-icons/fa";
 import { IoGameController } from "react-icons/io5";
 import { FaCode } from "react-icons/fa";
-import { FaSearch } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
+import { TiSortAlphabetically } from "react-icons/ti";
 
 // Static Images
 import iPhone from "../public/iPhone-black.png";
@@ -84,29 +84,36 @@ export default function index() {
             </linearGradient>
           </defs>
         </svg>
-        <section className="hero container text-center px-4 py-24 sm:py-0 sm:pt-48 sm:pb-24">
-          <div className="sm:w-10/12 2xl:w-8/12 mx-auto space-y-6">
-            <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900">
-              I Create Profitable Websites for Start-ups and Small Businesses
-            </h1>
-            <div className="intro text-gray-600 text-2xl sm:text-base leading-relaxed sm:leading-8">
-              <p>
-                Hi, I am <strong>Saad.</strong> I help start-ups & small
-                businesses to grow by converting more customers and make more
-                sales.
-              </p>
-              <p>
-                If you’re looking for a{" "}
-                <strong>freelance Website Designer</strong> or a{" "}
-                <strong>freelance front-end developer</strong> to help bring an
-                idea to life and market it using the best online marketing
-                tactics then let’s connect.
-              </p>
+        <section className="hero container px-4 py-24 sm:py-0 sm:pt-48 sm:pb-24">
+          <div className="grid grid-cols-2 gap-x-6 items-center">
+            <div className="col-left space-y-4">
+              <h1 className="text-4xl sm:text-6xl font-bold sm:leading-tight text-gray-900">
+                I help Chauffeurs ride more Passengers
+              </h1>
+              <div className="intro text-gray-600 sm:text-base  sm:leading-8">
+                <p className="text-xl leading-relaxed">
+                  <span className="text-3xl">👋</span> Hi! I'm' Saad, I partner
+                  with ambitious <strong>Chauffeur Service Providers</strong>{" "}
+                  supporting them with branding, websites and modern digital
+                  marketing tools to help them grow their businesses and reach
+                  more passenger with custom solutions designed for their unique
+                  business.
+                </p>
+              </div>
+              <Button btnTitle="Let's Start" btnLink="/contact" />
             </div>
-            <Button btnTitle="Start here" btnLink="/contact" />
+            <div className="col-right">
+              <Image
+                src="/car-service-cars.png"
+                alt="black cab services"
+                layout="intrinsic"
+                width={928}
+                height={315}
+              />
+            </div>
           </div>
 
-          <div className="clients-logo mt-10">
+          {/*<div className="clients-logo mt-10">
             <h4 className="mb-4">Trusted by</h4>
             <div className="hidden sm:block">
               <Image
@@ -126,7 +133,7 @@ export default function index() {
                 height={159}
               />
             </div>
-            {/* <img
+             <img
               src={Logos}
               alt="clients logo"
               className="hidden sm:block mx-auto"
@@ -135,117 +142,15 @@ export default function index() {
               src={mobileLogos}
               alt="clients logo"
               className="sm:hidden mx-auto"
-            /> */}
-          </div>
+            /> 
+          </div>*/}
         </section>
 
-        <section className="container projects px-4 xl:px-0">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="card-container">
-              <div className="sm:h-[23rem] rounded-xl shadow-xl overflow-hidden mb-6">
-                <Link href="https://edenred.ae/news">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src="/news.jpg"
-                      alt="WordPress News Page Development"
-                      placeholder="blur"
-                      blurDataURL="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
-                      width={475.75}
-                      height={562.5}
-                      layout="responsive"
-                      className="transition duration-1000 ease-in-out sm:hover:-translate-y-2/4"
-                    />
-                  </a>
-                </Link>
-              </div>
-              <p className="text-3xl sm:text-base">
-                WordPress Website Development for a News Page
-              </p>
-              <p className="text-lg sm:text-sm text-gray-400 mt-2">
-                WordPress Web Development
-              </p>
-            </div>
-
-            <div className="card-container mt-12 sm:mt-0">
-              <div className="sm:h-[23rem] rounded-xl shadow-xl overflow-hidden mb-6">
-                <Link href="https://conversationswithloulou.com/">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src="/cwl.jpg"
-                      alt="WordPress Website Development"
-                      className="sm:-mt-72 transition duration-3000 ease-in-out sm:hover:-translate-y-2/3"
-                      placeholder="blur"
-                      blurDataURL="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
-                      width={404.25}
-                      height={1094.5}
-                      layout="responsive"
-                    />
-                  </a>
-                </Link>
-              </div>
-              <p className="text-3xl sm:text-base">
-                Podcast Website design and Website development
-              </p>
-              <p className="text-lg sm:text-sm text-gray-400 mt-2">
-                WordPress Web Development
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
-            <div className="card-container mt-12 sm:mt-0">
-              <div className="sm:h-[23rem] rounded-xl shadow-xl overflow-hidden mb-6">
-                <Link href="https://gmlimousine.com/">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src="/limousine.jpg"
-                      alt="Airport Pick and Drop Website Design & Development"
-                      placeholder="blur"
-                      blurDataURL="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
-                      width={475.75}
-                      height={1337.25}
-                      layout="responsive"
-                      className="transition duration-4000 ease-in-out sm:hover:-translate-y-3/4"
-                    />
-                  </a>
-                </Link>
-              </div>
-              <p className="text-3xl sm:text-base">
-                Houston Airport Limousine Taxi Service Website
-              </p>
-              <p className="text-lg sm:text-sm text-gray-400 mt-2">
-                Website Design, Website Development
-              </p>
-            </div>
-
-            <div className="card-container mt-12 sm:mt-0">
-              <div className="sm:h-[23rem] rounded-xl shadow-xl overflow-hidden mb-6">
-                <Image
-                  src="/valleydez-full.jpg"
-                  alt="Ecommerce Website Development"
-                  placeholder="blur"
-                  blurDataURL="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg=="
-                  width={200}
-                  height={418}
-                  layout="responsive"
-                  className="transition duration-2000 ease-in-out sm:hover:-translate-y-3/4"
-                />
-              </div>
-              <p className="text-3xl sm:text-base">
-                E-commerce Website Development for a Fashion Boutique
-              </p>
-              <p className="text-lg sm:text-sm text-gray-400 mt-2">
-                Website Design, Website Development
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="homePageServices mt-20 px-4 xl:px-0">
+        <section className="homePageServices my-20 px-4 xl:px-0">
           <div className="container">
             <div className="w-full xl:flex gap-6">
               <div className="w-full xl:w-4/12">
-                <h2 className="text-[40px] font-black leading-none mb-4">
+                <h2 className="text-[40px] font-bold leading-none mb-4">
                   This is how I can help you for a perfect website
                 </h2>
                 <div className="text-2xl text-gray-700 sm:text-base leading-snug space-y-8 mb-6">
@@ -268,7 +173,7 @@ export default function index() {
                     handle it. My number one objective is to get you more
                     success.
                   </p>
-                  <div className="text-center hidden xl:block">
+                  <div className="hidden xl:block">
                     <Button
                       btnTitle={`View All Services`}
                       btnLink={`/services`}
@@ -280,17 +185,17 @@ export default function index() {
               <div className="w-full xl:w-8/12">
                 <div className="flex flex-wrap gap-6">
                   <Card
-                    cardTitle={"Website Review"}
+                    cardTitle={"Brand Strategy"}
                     cardDescription={
-                      "I make sure your website should be converting visitors into customers before making any changes."
+                      "Builds the foundation of your brand and website based on your unique values, goals, and expertise in your field."
                     }
                   >
                     <MdRateReview color="white" size="36" />
                   </Card>
                   <Card
-                    cardTitle={"Marketing Strategy"}
+                    cardTitle={"Visibility Strategy"}
                     cardDescription={
-                      "We will start by uncovering your internal brand and discuss your purpose, vision, mission and core values."
+                      "Creates a marketing strategy for your business to build your expert profile and solidify your specialties and the services you provide."
                     }
                   >
                     <FaChartLine color="white" size="36" />
@@ -299,17 +204,17 @@ export default function index() {
 
                 <div className="flex flex-wrap gap-6 mt-6">
                   <Card
-                    cardTitle={"User Experience Design"}
+                    cardTitle={"Brand Visuals"}
                     cardDescription={
-                      "I design your website to be as easy to use as possible while guiding users towards the end goal."
+                      "This is when I and you dive into the visuals of your brand: logo design, primary color palette, font selection, textures, and photography - all to support the brand identity I'll be creating for you. This work will make your brand visuals look professional, recognizable, and unique to you and your business."
                     }
                   >
                     <IoGameController color="white" size="36" />
                   </Card>
                   <Card
-                    cardTitle={"Custom Web Development"}
+                    cardTitle={"Website Design & Development"}
                     cardDescription={
-                      "I build with your goals in mind, whether you want a simple flexible website, a custom storefront or a SaaS product."
+                      "Combines your strategy, messaging, and brand visuals into a website that supports your business goals, takes you to the next level as an expert and pro in your field, and aligns and attracts more passengers."
                     }
                   >
                     <FaCode color="white" size="36" />
@@ -318,17 +223,17 @@ export default function index() {
 
                 <div className="flex flex-wrap gap-6 mt-6">
                   <Card
-                    cardTitle={"SEO Services"}
+                    cardTitle={"Professional Copywriting"}
                     cardDescription={
-                      "I ensure your website is doing good enough to stay on top in Google's SERP by using best SEO strategy."
+                      "I work with copy specialist to help ensure that all the words on your website sound like you - in a way that customers understand!"
                     }
                   >
-                    <FaSearch color="white" size="36" />
+                    <TiSortAlphabetically color="white" size="36" />
                   </Card>
                   <Card
-                    cardTitle={"Ongoing Support"}
+                    cardTitle={"Launch, Training & Support"}
                     cardDescription={
-                      "Your website is always growing. Whether you’re adding new features or making improvements I’m here to help."
+                      "Launch your new website with the help of promotional images and graphics and get support from me to tweak your new website to fit your vision."
                     }
                   >
                     <IoCall color="white" size="36" />
@@ -339,28 +244,118 @@ export default function index() {
           </div>
         </section>
 
+        <section className="container projects px-4 xl:px-0">
+          <h2 className="md:text-[40px] sm:text-6xl font-bold sm:leading-tight text-gray-900 mb-2">
+            Work
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="card-container">
+              <div className="sm:h-[30rem] rounded-xl shadow-lg overflow-hidden mb-6 transform transition-all hover:shadow-xl">
+                <Link href="https://limorideusa.com">
+                  <a target="_blank">
+                    <Image
+                      src="/limo-ride-usa.jpg"
+                      alt="WordPress News Page Development"
+                      width={1617}
+                      height={4448}
+                      layout="responsive"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <h3>Limo Ride USA</h3>
+              <p className="text-3xl sm:text-base">
+                Visit website:{" "}
+                <a href="https://limorideusa.com" target="_blank">
+                  https://limorideusa.com
+                </a>
+              </p>
+            </div>
+
+            <div className="card-container">
+              <div className="sm:h-[30rem] rounded-xl shadow-lg overflow-hidden mb-6 transform transition-all hover:shadow-xl">
+                <Link href="https://houstonbestlimoride.com/">
+                  <a target="_blank">
+                    <Image
+                      src="/hblr.jpg"
+                      alt="WordPress News Page Development"
+                      width={1617}
+                      height={4448}
+                      layout="responsive"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <h3>Houston Best Limo Ride</h3>
+              <p className="text-3xl sm:text-base">
+                Visit website:{" "}
+                <a href="https://houstonbestlimoride.com/" target="_blank">
+                  https://houstonbestlimoride.com
+                </a>
+              </p>
+            </div>
+
+            <div className="card-container">
+              <div className="sm:h-[30rem] rounded-xl shadow-lg overflow-hidden mb-6 transform transition-all hover:shadow-xl">
+                <Link href="https://gmlimousine.com/">
+                  <a target="_blank" rel="noopener noreferrer">
+                    <Image
+                      src="/limousine.jpg"
+                      alt="WordPress News Page Development"
+                      width={1617}
+                      height={4448}
+                      layout="responsive"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <h3>GM Limousine</h3>
+              <p className="text-3xl sm:text-base">
+                Visit website:{" "}
+                <a
+                  href="https://gmlimousine.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  https://gmlimousine.com/
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section className="social-media-marketing mt-32 px-4 xl:px-0 py-20 bg-gradient-to-r from-pb-blue to-[#768CE2]">
           <div className="container">
             <div className="grid grid-cols-12 grid-gap-6">
               <div className="col-span-full xl:col-span-6">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                  Social Media Marketing
+                  SEO - Search Engine Optimization
                 </h2>
                 <div className="text-white mt-6 space-y-4 text-2xl xl:text-base">
                   <p>
-                    It is important to use platforms that are commonly used by
-                    customers so that you can reach out to your target audience
-                    at a more effective rate.
+                    SEO stands for Search Engine Optimization. In the simplest
+                    of terms, good SEO optimizes your visibility online. This
+                    means that the more people see your website, the more your
+                    online traffic increases, and the better your chances to
+                    provide your product or service to a greater number of
+                    people.
                   </p>
 
                   <p>
-                    <strong>Social media marketing</strong> and advertising can
-                    help you increase your return on investment, as the cost of
-                    advertising on these social media forums is often less than
-                    the return, giving you more revenue, this is because the
-                    customers not only trust you with the product or service you
-                    offer but get to know you as a business on a much deeper
-                    level.
+                    If a prospective customer types in a topic relevant to what
+                    your business can provide, don’t you want to be on that
+                    first search results page alongside your competitors? If you
+                    aren’t in one of those top ten search spots, another
+                    business just gained a new customer—or, you just lost one.
+                  </p>
+                  
+                  <p>
+                    This is the importance of SEO for your business: SEO gives
+                    you the power to be the answer to potential customers’
+                    questions. In addition to visibility and traffic increase,
+                    SEO contributes to your authoritative voice in your field.
+                    Authority then leads to brand trust, which ultimately leads
+                    to brand loyalty.
                   </p>
                   <Button
                     btnTitle="Get Started"

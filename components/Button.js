@@ -6,7 +6,7 @@ export default function Button(props) {
     <>
       <Link href={props.btnLink}>
         <a
-          className="bg-blue-600 hover:bg-purple-600 transform hover:scale-105 transition-all duration-300 text-xl sm:text-base px-8 py-3 mt-10 inline-block text-white rounded-full"
+          className="bg-blue-600 hover:bg-purple-600 transform hover:scale-105 transition-all duration-300 text-xl sm:text-base px-8 py-3 mt-10 inline-block text-white rounded-md"
           style={{
             background: props.bg,
             color: props.color,

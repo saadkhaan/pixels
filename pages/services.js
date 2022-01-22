@@ -8,7 +8,7 @@ import { MdRateReview } from "react-icons/md"
 import { FaChartLine } from "react-icons/fa"
 import { IoGameController } from "react-icons/io5"
 import { FaCode } from "react-icons/fa"
-import { FaSearch } from "react-icons/fa"
+import { TiSortAlphabetically } from "react-icons/ti";
 import { IoCall } from "react-icons/io5"
 
 export default function services() {
@@ -22,8 +22,8 @@ export default function services() {
         />
         <link rel="canonical" href="https://pixelsbit.com/services" />
       </Head>
-      <div className="container px-4 py-32 sm:py-0 sm:pt-48 sm:pb-24 text-center">
-        <div className="w-8/12 mx-auto mb-12">
+      <div className="container px-4 pt-32 sm:py-0 sm:pt-48 sm:pb-24">
+        <div className="w-8/12 mb-12">
           <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900 mb-6">
             Web Design and
             <br />
@@ -40,11 +40,11 @@ export default function services() {
           </p>
         </div>
         <div className="flex flex-wrap lg:items-stretch h-full gap-y-6">
-          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 text-left">
             <Card
-              cardTitle={"Website Design"}
+              cardTitle={"Brand Strategy"}
               cardDescription={
-                "I make sure your website should be converting visitors into customers before making any changes."
+                "Builds the foundation of your brand and website based on your unique values, goals, and expertise in your field."
               }
             >
               <MdRateReview color="white" size="36" />
@@ -52,9 +52,9 @@ export default function services() {
           </div>
           <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
-              cardTitle={"Web Development"}
+              cardTitle={"Visibility Strategy"}
               cardDescription={
-                "We will start by uncovering your internal brand and discuss your purpose, vision, mission and core values."
+                "Creates a marketing strategy for your business to build your expert profile and solidify your specialties and the services you provide."
               }
             >
               <FaChartLine color="white" size="36" />
@@ -62,9 +62,9 @@ export default function services() {
           </div>
           <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
-              cardTitle={"User Experience Design"}
+              cardTitle={"Brand Visuals"}
               cardDescription={
-                "I design your website to be as easy to use as possible while guiding users towards the end goal."
+                "This is when I and you dive into the visuals of your brand: logo design, primary color palette, font selection, textures, and photography - all to support the brand identity I'll be creating for you. This work will make your brand visuals look professional, recognizable, and unique to you and your business."
               }
             >
               <IoGameController color="white" size="36" />
@@ -72,9 +72,9 @@ export default function services() {
           </div>
           <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
-              cardTitle={"Custom Development"}
+              cardTitle={"Website Design & Development"}
               cardDescription={
-                "I build with your goals in mind, whether you want a simple flexible website, a custom storefront or a SaaS product."
+                "Combines your strategy, messaging, and brand visuals into a website that supports your business goals, takes you to the next level as an expert and pro in your field, and aligns and attracts more passengers."
               }
             >
               <FaCode color="white" size="36" />
@@ -82,26 +82,26 @@ export default function services() {
           </div>
           <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
-              cardTitle={"SEO Services"}
+              cardTitle={"Professional Copywriting"}
               cardDescription={
-                "I ensure your website is doing good enough to stay on top in Google's SERP by using best technical seo approaches."
+                "I work with copy specialist to help ensure that all the words on your website sound like you - in a way that customers understand!"
               }
             >
-              <FaSearch color="white" size="36" />
+              <TiSortAlphabetically color="white" size="36" />
             </Card>
           </div>
           <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
             <Card
-              cardTitle={"Social Media Marketing"}
+              cardTitle={"Launch, Training & Support"}
               cardDescription={
-                "Your website is always growing. Whether you’re adding new features or making improvements I’m here to help."
+                "Launch your new website with the help of promotional images and graphics and get support from me to tweak your new website to fit your vision."
               }
             >
               <IoCall color="white" size="36" />
             </Card>
           </div>
         </div>
-        <Button btnTitle={`Hire Me`} btnLink={`/contact`} />
+        <div className="text-center"><Button btnTitle={`Hire Me`} btnLink={`/contact`} /></div>
       </div>
     </>
   );
