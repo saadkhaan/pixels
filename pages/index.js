@@ -230,7 +230,7 @@ export default function index() {
                 </a>
               </div>
               <h3>Limo Ride USA</h3>
-              <p className="text-xl sm:text-base">
+              <p className="text-md sm:text-base">
                 Visit website:{" "}
                 <a href="https://limorideusa.com" target="_blank">
                   https://limorideusa.com
@@ -253,7 +253,7 @@ export default function index() {
                 </Link>
               </div>
               <h3>Houston Best Limo Ride</h3>
-              <p className="text-xl sm:text-base">
+              <p className="text-md sm:text-base">
                 Visit website:{" "}
                 <a href="https://houstonbestlimoride.com/" target="_blank">
                   https://houstonbestlimoride.com
@@ -276,7 +276,7 @@ export default function index() {
                 </Link>
               </div>
               <h3>GM Limousine</h3>
-              <p className="text-xl sm:text-base">
+              <p className="text-md sm:text-base">
                 Visit website:{" "}
                 <a
                   href="https://gmlimousine.com/"
