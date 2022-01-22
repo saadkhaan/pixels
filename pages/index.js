@@ -85,7 +85,7 @@ export default function index() {
           </defs>
         </svg>
         <section className="hero container px-4 py-24 sm:py-0 sm:pt-48 sm:pb-24">
-          <div className="grid grid-cols-2 gap-x-6 items-center">
+          <div className="flex flex-col space-y-8 sm:space-y-0 sm:grid sm:grid-cols-2 gap-x-6 items-center">
             <div className="col-left space-y-4">
               <h1 className="text-4xl sm:text-6xl font-bold sm:leading-tight text-gray-900">
                 I help Chauffeurs ride more Passengers
@@ -112,38 +112,6 @@ export default function index() {
               />
             </div>
           </div>
-
-          {/*<div className="clients-logo mt-10">
-            <h4 className="mb-4">Trusted by</h4>
-            <div className="hidden sm:block">
-              <Image
-                src="/logos.png"
-                alt="clients logo"
-                layout="intrinsic"
-                width={710}
-                height={71}
-              />
-            </div>
-            <div className="sm:hidden">
-              <Image
-                src="/client-mobile.png"
-                alt="clients logo"
-                layout="intrinsic"
-                width={450}
-                height={159}
-              />
-            </div>
-             <img
-              src={Logos}
-              alt="clients logo"
-              className="hidden sm:block mx-auto"
-            />
-            <img
-              src={mobileLogos}
-              alt="clients logo"
-              className="sm:hidden mx-auto"
-            /> 
-          </div>*/}
         </section>
 
         <section className="homePageServices my-20 px-4 xl:px-0">
@@ -245,26 +213,24 @@ export default function index() {
         </section>
 
         <section className="container projects px-4 xl:px-0">
-          <h2 className="md:text-[40px] sm:text-6xl font-bold sm:leading-tight text-gray-900 mb-2">
+          <h2 className="text-4xl md:text-[40px] sm:text-6xl font-bold sm:leading-tight text-gray-900 mb-2">
             Work
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="card-container">
               <div className="sm:h-[30rem] rounded-xl shadow-lg overflow-hidden mb-6 transform transition-all hover:shadow-xl">
-                <Link href="https://limorideusa.com">
-                  <a target="_blank">
-                    <Image
-                      src="/limo-ride-usa.jpg"
-                      alt="WordPress News Page Development"
-                      width={1617}
-                      height={4448}
-                      layout="responsive"
-                    />
-                  </a>
-                </Link>
+                <a href="https://limorideusa.com" target="_blank">
+                  <Image
+                    src="/limo-ride-usa.jpg"
+                    alt="WordPress News Page Development"
+                    width={1617}
+                    height={4448}
+                    layout="responsive"
+                  />
+                </a>
               </div>
               <h3>Limo Ride USA</h3>
-              <p className="text-3xl sm:text-base">
+              <p className="text-xl sm:text-base">
                 Visit website:{" "}
                 <a href="https://limorideusa.com" target="_blank">
                   https://limorideusa.com
@@ -287,7 +253,7 @@ export default function index() {
                 </Link>
               </div>
               <h3>Houston Best Limo Ride</h3>
-              <p className="text-3xl sm:text-base">
+              <p className="text-xl sm:text-base">
                 Visit website:{" "}
                 <a href="https://houstonbestlimoride.com/" target="_blank">
                   https://houstonbestlimoride.com
@@ -310,7 +276,7 @@ export default function index() {
                 </Link>
               </div>
               <h3>GM Limousine</h3>
-              <p className="text-3xl sm:text-base">
+              <p className="text-xl sm:text-base">
                 Visit website:{" "}
                 <a
                   href="https://gmlimousine.com/"
@@ -348,7 +314,7 @@ export default function index() {
                     aren’t in one of those top ten search spots, another
                     business just gained a new customer—or, you just lost one.
                   </p>
-                  
+
                   <p>
                     This is the importance of SEO for your business: SEO gives
                     you the power to be the answer to potential customers’
