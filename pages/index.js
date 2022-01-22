@@ -216,7 +216,7 @@ export default function index() {
           <h2 className="text-4xl md:text-[40px] sm:text-6xl font-bold sm:leading-tight text-gray-900 mb-2">
             Work
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-2 sm:px-0">
             <div className="card-container">
               <div className="sm:h-[30rem] rounded-xl shadow-lg overflow-hidden mb-6 transform transition-all hover:shadow-xl">
                 <a href="https://limorideusa.com" target="_blank">
