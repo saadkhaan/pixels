@@ -40,7 +40,7 @@ export default function services() {
           </p>
         </div>
         <div className="flex flex-wrap lg:items-stretch h-full gap-y-6">
-          <div className="sm:w-6/12 lg:w-4/12 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
             <Card
               cardTitle={"Brand Strategy"}
               cardDescription={
@@ -50,7 +50,7 @@ export default function services() {
               <MdRateReview color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
             <Card
               cardTitle={"Visibility Strategy"}
               cardDescription={
@@ -60,7 +60,7 @@ export default function services() {
               <FaChartLine color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
             <Card
               cardTitle={"Brand Visuals"}
               cardDescription={
@@ -70,7 +70,7 @@ export default function services() {
               <IoGameController color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
             <Card
               cardTitle={"Website Design & Development"}
               cardDescription={
@@ -80,7 +80,7 @@ export default function services() {
               <FaCode color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
             <Card
               cardTitle={"Professional Copywriting"}
               cardDescription={
@@ -90,7 +90,7 @@ export default function services() {
               <TiSortAlphabetically color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 px-3 text-left">
+          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
             <Card
               cardTitle={"Launch, Training & Support"}
               cardDescription={
@@ -101,7 +101,7 @@ export default function services() {
             </Card>
           </div>
         </div>
-        <div className="text-center"><Button btnTitle={`Hire Me`} btnLink={`/contact`} /></div>
+        <div className="text-center hidden sm:block"><Button btnTitle={`Hire Me`} btnLink={`/contact`} /></div>
       </div>
     </>
   );
