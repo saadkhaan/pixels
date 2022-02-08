@@ -17,7 +17,7 @@ import { IoCall } from "react-icons/io5";
 import { TiSortAlphabetically } from "react-icons/ti";
 
 // Static Images
-import iPhone from "../public/iPhone-black.png";
+import seoResult from "../public/seo-result.png";
 
 export default function index() {
     return (
@@ -39,7 +39,7 @@ export default function index() {
           height="1098"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="absolute right-0 blob -z-1"
+          className="blob absolute right-0 -z-1"
         >
           <path
             fillRule="evenodd"
@@ -85,9 +85,9 @@ export default function index() {
           </defs>
         </svg>
         <section className="hero container px-4 py-24 sm:py-0 sm:pt-48 sm:pb-24">
-          <div className="flex flex-col space-y-8 sm:space-y-0 sm:grid sm:grid-cols-2 gap-x-6 items-center">
+          <div className="flex flex-col items-center gap-x-6 space-y-8 sm:grid sm:grid-cols-2 sm:space-y-0">
             <div className="col-left space-y-4">
-              <h1 className="text-4xl sm:text-6xl font-bold sm:leading-tight text-gray-900">
+              <h1 className="text-4xl font-bold text-gray-900 sm:text-6xl sm:leading-tight">
                 I help Chauffeurs ride more Passengers
               </h1>
               <div className="intro text-gray-600 sm:text-base  sm:leading-8">
@@ -114,14 +114,14 @@ export default function index() {
           </div>
         </section>
 
-        <section className="homePageServices my-2 sm:my-20 px-4 xl:px-0">
+        <section className="homePageServices my-2 px-4 sm:my-20 xl:px-0">
           <div className="container">
-            <div className="w-full xl:flex gap-6">
+            <div className="w-full gap-6 xl:flex">
               <div className="w-full xl:w-4/12">
-                <h2 className="text-[40px] font-bold leading-none mb-4">
+                <h2 className="mb-4 text-[40px] font-bold leading-none">
                   This is how I can help you for a perfect website
                 </h2>
-                <div className="text-2xl text-gray-700 sm:text-base leading-snug space-y-8 mb-6">
+                <div className="mb-6 space-y-8 text-2xl leading-snug text-gray-700 sm:text-base">
                   <p>
                     I love watching start-ups and small businesses grow and get
                     more out of their businesses successfully.
@@ -151,74 +151,80 @@ export default function index() {
               </div>
 
               <div className="w-full xl:w-8/12">
-                <div className="flex flex-wrap gap-6">
-                  <Card
-                    cardTitle={"Brand Strategy"}
-                    cardDescription={
-                      "Builds the foundation of your brand and website based on your unique values, goals, and expertise in your field."
-                    }
-                  >
-                    <MdRateReview color="white" size="36" />
-                  </Card>
-                  <Card
-                    cardTitle={"Visibility Strategy"}
-                    cardDescription={
-                      "Creates a marketing strategy for your business to build your expert profile and solidify your specialties and the services you provide."
-                    }
-                  >
-                    <FaChartLine color="white" size="36" />
-                  </Card>
-                </div>
-
-                <div className="flex flex-wrap gap-6 mt-6">
-                  <Card
-                    cardTitle={"Brand Visuals"}
-                    cardDescription={
-                      "This is when I and you dive into the visuals of your brand: logo design, primary color palette, font selection, textures, and photography - all to support the brand identity I'll be creating for you. This work will make your brand visuals look professional, recognizable, and unique to you and your business."
-                    }
-                  >
-                    <IoGameController color="white" size="36" />
-                  </Card>
-                  <Card
-                    cardTitle={"Website Design & Development"}
-                    cardDescription={
-                      "Combines your strategy, messaging, and brand visuals into a website that supports your business goals, takes you to the next level as an expert and pro in your field, and aligns and attracts more passengers."
-                    }
-                  >
-                    <FaCode color="white" size="36" />
-                  </Card>
-                </div>
-
-                <div className="flex flex-wrap gap-6 mt-6">
-                  <Card
-                    cardTitle={"Professional Copywriting"}
-                    cardDescription={
-                      "I work with copy specialist to help ensure that all the words on your website sound like you - in a way that customers understand!"
-                    }
-                  >
-                    <TiSortAlphabetically color="white" size="36" />
-                  </Card>
-                  <Card
-                    cardTitle={"Launch, Training & Support"}
-                    cardDescription={
-                      "Launch your new website with the help of promotional images and graphics and get support from me to tweak your new website to fit your vision."
-                    }
-                  >
-                    <IoCall color="white" size="36" />
-                  </Card>
+                <div className="flex h-full flex-wrap gap-y-6 lg:items-stretch">
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                    <Card
+                      cardTitle={"Brand Strategy"}
+                      cardDescription={
+                        "Builds the foundation of your brand and website based on your unique values, goals, and expertise in your field."
+                      }
+                    >
+                      <MdRateReview color="white" size="36" />
+                    </Card>
+                  </div>
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                    <Card
+                      cardTitle={"Visibility Strategy"}
+                      cardDescription={
+                        "Creates a marketing strategy for your business to build your expert profile and solidify your specialties and the services you provide."
+                      }
+                    >
+                      <FaChartLine color="white" size="36" />
+                    </Card>
+                  </div>
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                    <Card
+                      cardTitle={"Brand Visuals"}
+                      cardDescription={
+                        "This is when I and you dive into the visuals of your brand: logo design, primary color palette, font selection, textures, and photography - all to support the brand identity I'll be creating for you. This work will make your brand visuals look professional, recognizable, and unique to you and your business."
+                      }
+                    >
+                      <IoGameController color="white" size="36" />
+                    </Card>
+                  </div>
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                    <Card
+                      cardTitle={"Website Design & Development"}
+                      cardDescription={
+                        "Combines your strategy, messaging, and brand visuals into a website that supports your business goals, takes you to the next level as an expert and pro in your field, and aligns and attracts more passengers."
+                      }
+                    >
+                      <FaCode color="white" size="36" />
+                    </Card>
+                  </div>
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                    <Card
+                      cardTitle={"Professional Copywriting"}
+                      cardDescription={
+                        "I work with copy specialist to help ensure that all the words on your website sound like you - in a way that customers understand!"
+                      }
+                    >
+                      <TiSortAlphabetically color="white" size="36" />
+                    </Card>
+                  </div>
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                    <Card
+                      cardTitle={"Launch, Training & Support"}
+                      cardDescription={
+                        "Launch your new website with the help of promotional images and graphics and get support from me to tweak your new website to fit your vision."
+                      }
+                    >
+                      <IoCall color="white" size="36" />
+                    </Card>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="container projects px-4 xl:px-0">
-          <h2 className="text-4xl md:text-[40px] sm:text-6xl font-bold sm:leading-tight text-gray-900 mb-2">
+        <section className="projects container px-4 xl:px-0">
+          <h2 className="mb-2 text-4xl font-bold text-gray-900 sm:text-6xl sm:leading-tight md:text-[40px]">
             Work
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-2 sm:px-0">
+          <div className="grid grid-cols-1 gap-6 px-2 sm:grid-cols-2 sm:px-0">
             <div className="card-container">
-              <div className="sm:h-[30rem] rounded-xl shadow-lg overflow-hidden mb-6 transform transition-all hover:shadow-xl">
+              <div className="mb-6 transform overflow-hidden rounded-xl shadow-lg transition-all hover:shadow-xl sm:h-[30rem]">
                 <a href="https://limorideusa.com" target="_blank">
                   <Image
                     src="/limo-ride-usa.jpg"
@@ -238,7 +244,7 @@ export default function index() {
             </div>
 
             <div className="card-container">
-              <div className="sm:h-[30rem] rounded-xl shadow-lg overflow-hidden mb-6 transform transition-all hover:shadow-xl">
+              <div className="mb-6 transform overflow-hidden rounded-xl shadow-lg transition-all hover:shadow-xl sm:h-[30rem]">
                 <Link href="https://houstonbestlimoride.com/">
                   <a target="_blank">
                     <Image
@@ -258,9 +264,30 @@ export default function index() {
                 </a>
               </p>
             </div>
+            <div className="card-container">
+              <div className="mb-6 transform overflow-hidden rounded-xl shadow-lg transition-all hover:shadow-xl sm:h-[30rem]">
+                <Link href="https://uniquelimoride.com/">
+                  <a target="_blank">
+                    <Image
+                      src="/ulr.jpg"
+                      alt="limousine services web design services"
+                      width={1617}
+                      height={4356}
+                      layout="responsive"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <h3>Unique Limo Ride</h3>
+              <p className="text-md sm:text-base">
+                <a href="https://uniquelimoride.com/" target="_blank">
+                  Visit website
+                </a>
+              </p>
+            </div>
 
             <div className="card-container">
-              <div className="sm:h-[30rem] rounded-xl shadow-lg overflow-hidden mb-6 transform transition-all hover:shadow-xl">
+              <div className="mb-6 transform overflow-hidden rounded-xl shadow-lg transition-all hover:shadow-xl sm:h-[30rem]">
                 <Link href="https://gmlimousine.com/">
                   <a target="_blank" rel="noopener noreferrer">
                     <Image
@@ -287,14 +314,14 @@ export default function index() {
           </div>
         </section>
 
-        <section className="social-media-marketing mt-32 px-4 xl:px-0 py-20 bg-gradient-to-r from-pb-blue to-[#768CE2]">
+        <section className="social-media-marketing mt-32 bg-gradient-to-r from-pb-blue to-[#768CE2] px-4 py-20 xl:px-0">
           <div className="container">
-            <div className="grid grid-cols-12 grid-gap-6">
+            <div className="grid-gap-6 grid grid-cols-12">
               <div className="col-span-full xl:col-span-6">
-                <h2 className="text-4xl sm:text-7xl font-bold text-white">
+                <h2 className="text-4xl font-bold text-white sm:text-7xl">
                   SEO - Search Engine Optimization
                 </h2>
-                <div className="text-white mt-6 space-y-4 text-2xl xl:text-base">
+                <div className="mt-6 space-y-4 text-2xl text-white xl:text-base">
                   <p>
                     SEO stands for Search Engine Optimization. In the simplest
                     of terms, good SEO optimizes your visibility online. This
@@ -329,20 +356,21 @@ export default function index() {
                   />
                 </div>
               </div>
-              <div className="col-span-6 relative hidden xl:block">
-                <div className="absolute xl:-top-28 right-0">
-                  <div className="xl:w-[42rem]">
-                    <Image src={iPhone} alt="social media marketing" />
-                  </div>
+              <div className="order-first col-span-full mb-6 sm:order-last xl:col-span-6">
+                <div className="image">
+                  <Image
+                    src={seoResult}
+                    alt="search engine optimization result"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="testimonials py-24 lg:py-44 mt-20 bg-gray-100">
-          <div className="w-8/12 mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-20">
+        <section className="testimonials mt-20 bg-gray-100 py-24 lg:py-44">
+          <div className="mx-auto w-8/12">
+            <h2 className="mb-20 text-center text-4xl font-bold">
               Some encouraging words from people like you
             </h2>
             <Testimonial
