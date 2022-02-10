@@ -10,7 +10,10 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        <meta name="facebook-domain-verification" content="9hssa3778x6r0km0ds63pnc5syxu5z" />
+          <meta
+            name="facebook-domain-verification"
+            content="9hssa3778x6r0km0ds63pnc5syxu5z"
+          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link
@@ -74,6 +77,11 @@ class MyDocument extends Document {
               __html: `<!-- VISA Tracking Code for pixelsbit.com -->
               (function(v,i,s,a){if(!v._visaSettings){v._visaSettings={};}v._visaSettings["8eb55897-0639-11ec-b589-901b0edac50a"]={v:"0.3",s:"8eb55897-0639-11ec-b589-901b0edac50a",a:"1"};_v=i.getElementsByTagName("body")[0];_a=_v;_i=i.createElement("script");_s=_i;_s.defer="defer";_s.src=s+a+v._visaSettings["8eb55897-0639-11ec-b589-901b0edac50a"].v;_a.appendChild(_s);})(window,document,"//app-worker.visitor-analytics.io/main",".js?s=8eb55897-0639-11ec-b589-901b0edac50a&v=")</script>
               <!-- VISA Tracking Code for pixelsbit.com -->`,
+            }}
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `<script src="//code.tidio.co/fzbksiw00kdugn8qvtiuvmfofgiltobs.js" async></script>`,
             }}
           ></script>
         </body>
