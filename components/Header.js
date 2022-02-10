@@ -76,14 +76,14 @@ export default function Header() {
             <li className="py-3 sm:py-2">
               <Link href="/services">Services</Link>
             </li>
-            <li className="sm:hidden pt-3">
+            {/* <li className="sm:hidden pt-3">
               <Link href="/contact">Hire Me</Link>
             </li>
             <li className="sm:mr-0 bg-[#569EC2] rounded-full px-6 hidden sm:flex">
               <Link href="/contact">
                 <a className="text-white">Hire Me</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
