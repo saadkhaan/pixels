@@ -79,10 +79,12 @@ class MyDocument extends Document {
               <!-- VISA Tracking Code for pixelsbit.com -->`,
             }}
           ></script>
+
           <script
-            src="//code.tidio.co/fzbksiw00kdugn8qvtiuvmfofgiltobs.js"
             async
+            src="//code.tidio.co/fzbksiw00kdugn8qvtiuvmfofgiltobs.js"
           ></script>
+
         </body>
       </Html>
     );
