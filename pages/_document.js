@@ -80,9 +80,8 @@ class MyDocument extends Document {
             }}
           ></script>
           <script
-            dangerouslySetInnerHTML={{
-              __html: `<script src="//code.tidio.co/fzbksiw00kdugn8qvtiuvmfofgiltobs.js" async></script>`,
-            }}
+            src="//code.tidio.co/fzbksiw00kdugn8qvtiuvmfofgiltobs.js"
+            async
           ></script>
         </body>
       </Html>
