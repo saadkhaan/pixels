@@ -39,7 +39,7 @@ export default function index() {
           height="1098"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="blob absolute right-0 -z-1"
+          className="blob -z-1 absolute right-0"
         >
           <path
             fillRule="evenodd"
@@ -232,6 +232,7 @@ export default function index() {
                     width={756}
                     height={552}
                     layout="responsive"
+                    placeholder="blur"
                   />
                 </a>
               </div>
@@ -253,6 +254,7 @@ export default function index() {
                       width={756}
                       height={552}
                       layout="responsive"
+                      placeholder="blur"
                     />
                   </a>
                 </Link>
@@ -274,6 +276,7 @@ export default function index() {
                       width={756}
                       height={552}
                       layout="responsive"
+                      placeholder="blur"
                     />
                   </a>
                 </Link>
@@ -296,6 +299,7 @@ export default function index() {
                       width={756}
                       height={552}
                       layout="responsive"
+                      placeholder="blur"
                     />
                   </a>
                 </Link>
@@ -314,7 +318,7 @@ export default function index() {
           </div>
         </section>
 
-        <section className="social-media-marketing mt-32 bg-gradient-to-r from-pb-blue to-[#768CE2] px-4 py-20 xl:px-0">
+        <section className="social-media-marketing from-pb-blue mt-32 bg-gradient-to-r to-[#768CE2] px-4 py-20 xl:px-0">
           <div className="container">
             <div className="grid-gap-6 grid grid-cols-12">
               <div className="col-span-full xl:col-span-6">
