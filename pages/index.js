@@ -229,8 +229,8 @@ export default function index() {
                   <Image
                     src="/limo-ride-usa.jpg"
                     alt="WordPress News Page Development"
-                    width={1617}
-                    height={4448}
+                    width={756}
+                    height={552}
                     layout="responsive"
                   />
                 </a>
@@ -250,8 +250,8 @@ export default function index() {
                     <Image
                       src="/hblr.jpg"
                       alt="WordPress News Page Development"
-                      width={1617}
-                      height={4448}
+                      width={756}
+                      height={552}
                       layout="responsive"
                     />
                   </a>
@@ -271,8 +271,8 @@ export default function index() {
                     <Image
                       src="/ulr.jpg"
                       alt="limousine services web design services"
-                      width={1617}
-                      height={4356}
+                      width={756}
+                      height={552}
                       layout="responsive"
                     />
                   </a>
@@ -293,8 +293,8 @@ export default function index() {
                     <Image
                       src="/limousine.jpg"
                       alt="WordPress News Page Development"
-                      width={1617}
-                      height={4448}
+                      width={756}
+                      height={552}
                       layout="responsive"
                     />
                   </a>
