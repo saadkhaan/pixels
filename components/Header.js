@@ -76,6 +76,9 @@ export default function Header() {
             <li className="py-3 sm:py-2">
               <Link href="/services">Services</Link>
             </li>
+            <li className="py-3 sm:py-2">
+              <Link href="/contact">Contact</Link>
+            </li>
             {/* <li className="sm:hidden pt-3">
               <Link href="/contact">Hire Me</Link>
             </li>
