@@ -107,8 +107,9 @@ export default function index() {
                 src="/car-service-cars.png"
                 alt="black cab services"
                 layout="intrinsic"
-                width={928}
-                height={315}
+                width={740}
+                height={251}
+                placeholder="blur"
               />
             </div>
           </div>
