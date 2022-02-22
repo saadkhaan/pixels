@@ -313,7 +313,7 @@ export default function index() {
                   </a>
                 </Link>
               </div>
-              <h3>A Podcast website</h3>
+              <h3>A Corporate Wordpress website</h3>
               <p className="text-md sm:text-base">
                 <a
                   href="https://edenred.ae/news"
