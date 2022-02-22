@@ -34,6 +34,9 @@ module.exports = {
       zIndex: {
         "-1": "-1",
       },
+      backgroundImage: {
+        "hero-bg": "url('/website-design.png')",
+      },
     },
   },
   variants: {

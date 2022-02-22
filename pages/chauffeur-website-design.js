@@ -24,17 +24,17 @@ export default function index() {
       <>
         <Head>
           <title>
-            Hire Freelance Website Designer | Freelance Ecommerce Website
+            Hire Chauffeur Website Designer | Freelance e-Commerce Website
             Developer
           </title>
           <meta
             name="description"
-            content="Hire Freelance Website Designer to create eye-catching and user-friendly websites to generate web traffic and revenue."
+            content="Hire Chauffeur Website Designer to create eye-catching and user-friendly websites to generate web traffic and revenue."
           ></meta>
           <link rel="canonical" href="https://pixelsbit.com" />
         </Head>
 
-        {/* <svg
+        <svg
           width="1267"
           height="1098"
           fill="none"
@@ -79,32 +79,39 @@ export default function index() {
               y2="441.5"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#05c9f9" />
-              <stop offset="1" stopColor="#e5f61b" />
+              <stop stopColor="#F3E7E9" />
+              <stop offset="1" stopColor="#E3EEFF" />
             </linearGradient>
           </defs>
-        </svg> */}
-        <section className="hero bg-gray-50 bg-hero-bg bg-right-bottom bg-no-repeat px-4 py-24 sm:py-0 sm:pt-56 sm:pb-24">
-          <div className="container px-4">
-            <div className="flex flex-col items-center gap-x-6 space-y-8 sm:grid sm:grid-cols-2 sm:space-y-0">
-              <div className="col-left space-y-4">
-                <h1 className="text-4xl font-bold sm:text-[5.5rem] sm:leading-none">
-                  <span className="to bg-[#f9bc2c] bg-gradient-to-t from-[#f74c06] bg-clip-text text-transparent">
-                    Website Design & Branding
-                  </span>
-                </h1>
-                <div className="intro text-gray-600 sm:text-base  sm:leading-8">
-                  <p className="text-xl leading-relaxed">
-                    <span className="text-3xl">👋</span> Hi! I'm' Saad, I work
-                    with ambitious business owners helping them with branding,
-                    <strong>website designs</strong> and modern{" "}
-                    <strong>digital marketing</strong> tools to help them grow
-                    their business by making more sales by custom solutions
-                    designed for their unique business.
-                  </p>
-                </div>
-                <Button btnTitle="Let's Make it Real!" btnLink="/contact" />
+        </svg>
+        <section className="hero container px-4 py-24 sm:py-0 sm:pt-48 sm:pb-24">
+          <div className="flex flex-col items-center gap-x-6 space-y-8 sm:grid sm:grid-cols-2 sm:space-y-0">
+            <div className="col-left space-y-4">
+              <h1 className="text-4xl font-bold text-gray-900 sm:text-6xl sm:leading-tight">
+                I help Chauffeurs ride more Passengers
+              </h1>
+              <div className="intro text-gray-600 sm:text-base  sm:leading-8">
+                <p className="text-xl leading-relaxed">
+                  <span className="text-3xl">👋</span> Hi! I'm' Saad, I partner
+                  with ambitious <strong>Chauffeur Service Providers</strong>{" "}
+                  supporting them with branding, websites and modern digital
+                  marketing tools to help them grow their businesses and reach
+                  more passenger with custom solutions designed for their unique
+                  business.
+                </p>
               </div>
+              <Button btnTitle="Let's Start" btnLink="/contact" />
+            </div>
+            <div className="col-right">
+              <Image
+                src="/car-service-cars.png"
+                alt="black cab services"
+                layout="intrinsic"
+                width={740}
+                height={251}
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAFA4PEg8NFBIQEhcVFBgeMiEeHBwePSwuJDJJQExLR0BGRVBac2JQVW1WRUZkiGVtd3uBgoFOYI2XjH2Wc36BfP/bAEMBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAF0BEgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAcEAEBAQEBAQEBAQAAAAAAAAAAARESAgMTUWH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A8UAAAYAjB4BA8PAIHh4BBWDAIKw8BJngwCCsGAkKwYCQeDASSsLATSqioIpVVhWAilVWFYCKmrsLAQFYMBAVgB0AADAMAeCKgFh4chyAWHipDwE4eKw8BGHi8GAjDxeDARgxeFgIwYvCwEYMVhYCcLFYVBFhWLpUEWJsXSBFhWLwsBGFi8LARhYvBgIwLwAehOnoLOIlVKC4cTKqAqKiYqAcVChwDPCUAwYDAAACBkBEZARGVAqVOpoFSp0qBUjqQBAARGQAAAAADHT1l0fQNpTlYz0qegbSrlYz0qegbSqlYz0qegbSnKynpU9A1lPWU9H0DXRrPo+gXo1HQ6BejUdF0C9LUdF0C7U2pvor6BVpWpvpN9Aq0rU30V9Aq0tRfRdAvS1HRdAvS1HRdA00az6HQNNDLoA5ezntz6NoOqe1T25J6pz6UHbPap7cc+qp9f8AQdk9qntyT6Kn0B1z2qe3JPoqfQHVPZ9uafQ/0B09n25v0PsHR2O3P2fYN+x0w7HYNui6Y9jsGvRdMuy7BrfSb6Z32m+wa30V9Mr7TfYNb6TfbG+036A3vtN9ue/VN+lB032X6OXul1f6Dq/Qfo5dpA6v0DlAAAAAAAAAHtPq/wBSAXPpVT61kAbT7Kn1c4B1T6qn0cm1U9UHV+h9uaWqlBv2fbDT0G3Y7ZaNBp0XSNLQXfSb7Ram0F32i/RFqQVfVqQAAAAAAAAAAAB//9k="
+              />
             </div>
           </div>
         </section>
@@ -114,7 +121,7 @@ export default function index() {
             <div className="w-full gap-6 xl:flex">
               <div className="w-full xl:w-4/12">
                 <h2 className="mb-4 text-[40px] font-bold leading-none">
-                  Ways I can help you
+                  This is how I can help you for a perfect website
                 </h2>
                 <div className="mb-6 space-y-8 text-2xl leading-snug text-gray-700 sm:text-base">
                   <p>
@@ -141,11 +148,6 @@ export default function index() {
                       btnTitle={`View All Services`}
                       btnLink={`/services`}
                     />
-                  </div>
-                  <div className="hidden xl:block">
-                    <Link href="/chauffeur-website-design">
-                      <a>Looking for Chauffeur Web design services?</a>
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -218,7 +220,7 @@ export default function index() {
           </div>
         </section>
 
-        <section className="projects container mt-20 px-4 xl:px-0">
+        <section className="projects container px-4 xl:px-0">
           <h2 className="mb-2 text-4xl font-bold text-gray-900 sm:text-6xl sm:leading-tight md:text-[40px]">
             Work
           </h2>
@@ -251,7 +253,7 @@ export default function index() {
                   <a target="_blank">
                     <Image
                       src="/hblr.jpg"
-                      alt="limo service web design"
+                      alt="WordPress News Page Development"
                       width={756}
                       height={552}
                       layout="responsive"
@@ -268,63 +270,6 @@ export default function index() {
                 </a>
               </p>
             </div>
-
-            <div className="card-container">
-              <div className="mb-6 transform overflow-hidden rounded-xl shadow-lg transition-all hover:shadow-xl sm:h-[30rem]">
-                <Link href="https://conversationswithloulou.com/">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src="/loulou.jpg"
-                      alt="A Podcast Website built on WordPress"
-                      width={756}
-                      height={552}
-                      layout="responsive"
-                      placeholder="blur"
-                      blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAFA4PEg8NFBIQEhcVFBgeMiEeHBwePSwuJDJJQExLR0BGRVBac2JQVW1WRUZkiGVtd3uBgoFOYI2XjH2Wc36BfP/bAEMBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAMgBEgMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAgEDBQT/xAAWEAEBAQAAAAAAAAAAAAAAAAAAEQH/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQIEBQMG/8QAGREBAQEBAQEAAAAAAAAAAAAAABEBEgIT/9oADAMBAAIRAxEAPwD0GsH5t2qbiVYg3FYnG4yKxWJxWIqsbjMbhBWNZjVg0BYjQCIAEBgEUY1iQGNYxuADEVoAAAACDRgDQAfADXf82KKxjU+ZW4rE4rE4WtxWJxWJwVWNxmNxORWNS05VQxqQGsCI0YEAGEAGEGsBOQYDO+VAGd8FAGedVowSaNGNSAAQfCMpXs8vjVNxLc1OVqsViM1Wazvkq8biM1WazvlavG4jNVWeVqmprazyKamlTkVRNbTkaVNKnI0ZSryNYylTkaMrKcihNKcihNbU5GjBOVaManJRrBOStGBwV59bUVtevy+NVW1FbU5K6Zrc1Ga3NZ3ytdM1uajNbms75Wuma2ozW5rG+SrraitrPKrpU0qcqulRSpyLrKmlTkVSppTkbSppTlFUqaU5FUqaU5FUqaU5VVbU0qciqVNKnIqlZSnIqiaHJXnVtRSvW5c9XW1FbU5Wuma3Nc81uazvla6Zqs1zzW5rG+VrpmqrnmtrO+VrpSoraxvlautrnW1Iq6VFKzBdKilIKpU1lILpUUpBVKmlIKrailILpUVtIKrailTkXSppTkXSoranIqiaHI82lRW160c1XW1zqqkWrzVZrnmtzWdxa6Zqs1yzVZrG41XStrnW1jcWulbXOtrO4tXW1zrazFXSopUgulRSpBdZUUpBdKilILpUUpBdKilIOlKilILrailSC62opSC6VFKRV0RQg86lRW16kclXW1zrakWulbmuearNZ3FzXStzXPNbWNxqulbXOtrO41XStrnW1jcVdbXOlZiulK50qRXSsqKVILpUUpBdKilIi6VFKQXW1zpSDpSopSDpSopSK6UqKVILrailILoihB51Kmlem4qutqK2o1V1tRW1nWs1dbUVtY3GsXW1FbWdxpdbXOtrG40ulRSsxV0qKVILpUUpBdKisqQXSopSC62udbSIulRSkHStrnW0irra51tSC6VFbSC6VFKRV0RQg+ClYPQcKq2pajWKrahtZ1rF1tRW1nW8VW1FbWdaXSoray0qlTSsqqlTWVBdKilQVSppQVSoraIqtqKUF1tc62gutqKVBdbUVtFXSoraCq2opUF0RQHxgO6uNrWCVrGtYMtYorBGsVSpay02lZSstNpWVlRVUqaVBVZWVlQVSppRFUqaUFVtRSoLrailBdbUVtBdKitqKulTSgulTSiqomiD5wHXXINY1Ko1glaxoCNYAI0DBlppWCAVlEG1lYUG0rKyoKpU0oiq2pAVW1FbUFVtTWgqlTWoqqVlBVUqaUFUZQHIB01zNARQBGgBGgBFGAjQDEAYADBABgjRgiNaloNalqChjRWtS1Fa1gK0Y0AAEgOhzgAoAigCNDAFAEaYAgwBBgAMARAAQaCA0AGgitaAo0EUAAAB/9k="
-                    />
-                  </a>
-                </Link>
-              </div>
-              <h3>A Podcast website</h3>
-              <p className="text-md sm:text-base">
-                <a
-                  href="https://conversationswithloulou.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit website
-                </a>
-              </p>
-            </div>
-
-            <div className="card-container">
-              <div className="mb-6 transform overflow-hidden rounded-xl shadow-lg transition-all hover:shadow-xl sm:h-[30rem]">
-                <Link href="https://edenred.ae/news">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src="/news.jpg"
-                      alt="WordPress News Page Development"
-                      width={756}
-                      height={552}
-                      layout="responsive"
-                      placeholder="blur"
-                      blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAFA4PEg8NFBIQEhcVFBgeMiEeHBwePSwuJDJJQExLR0BGRVBac2JQVW1WRUZkiGVtd3uBgoFOYI2XjH2Wc36BfP/bAEMBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAMgBEgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQMCBv/EABQQAQAAAAAAAAAAAAAAAAAAAAD/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APXgAAAAAgAAACKgAAIAKIqAAIqAAAAAAAAKigigIAKACDQUVEFQAABFAQABFQAAEAFEVAAEVAAAAAAAUAAABUAAAAagCAACKAgACKgAAIACACoAACIoAAAAAAoAAACioAAAA1AEAAQVAEUBAAQAEABABUAARUAARQFBFAAFBFBUAUEFAAAagCIKAgAIKgIKgIKgIACACoAAigIAAqKigACgqAKAAACggoDQUEQABFARFARFQBFQEFQEFQEAFAAAAAAFAAFAAAUAAAAAagCCKgAAIACAAiKAiKgCKgCKCoAAAACgAAKACgACgAAAA0AEAAQABFQBFQEABEUBAAQABFAQUFAAFRQAUAFEAAAUEFAdgAIqAAAIqAIqAIqAgqAgqAIoCAAAACgAAKAAoAAAoAAAOxAAAAAEAARUARUARQEABAAAAAAAAFRQAAUABUUAAAAHQAAAAAIAAioAACAAgqAIoCAAAAAAoAAKAACgAAAAA6AAAARUAAARUAABAAEVAAAAAQUAAAAAVFAABQAAAAAdAAAAIAAACAAACAAIAAAAAAAAAAACgAACgAAAAA//2Q=="
-                    />
-                  </a>
-                </Link>
-              </div>
-              <h3>A Podcast website</h3>
-              <p className="text-md sm:text-base">
-                <a
-                  href="https://edenred.ae/news"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit website
-                </a>
-              </p>
-            </div>
-
             <div className="card-container">
               <div className="mb-6 transform overflow-hidden rounded-xl shadow-lg transition-all hover:shadow-xl sm:h-[30rem]">
                 <Link href="https://uniquelimoride.com/">
@@ -433,7 +378,7 @@ export default function index() {
           </div>
         </section>
 
-        <section className="testimonials bg-gray-100 py-24 lg:py-44">
+        <section className="testimonials mt-20 bg-gray-100 py-24 lg:py-44">
           <div className="mx-auto w-8/12">
             <h2 className="mb-20 text-center text-4xl font-bold">
               Some encouraging words from people like you

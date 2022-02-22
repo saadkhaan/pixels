@@ -23,11 +23,13 @@ export default function services() {
         <link rel="canonical" href="https://pixelsbit.com/services" />
       </Head>
       <div className="container px-4 pt-32 sm:py-0 sm:pt-48 sm:pb-24">
-        <div className="w-8/12 mb-12">
-          <h1 className="text-4xl sm:text-6xl font-black sm:leading-tight text-gray-900 mb-6">
-            Web Design and
-            <br />
-            Online Marketing Services
+        <div className="mb-12 w-8/12">
+          <h1 className="mb-6 text-4xl font-bold sm:text-[5.5rem] sm:leading-none">
+            <span className="to bg-[#f9bc2c] bg-gradient-to-t from-[#f74c06] bg-clip-text text-transparent">
+              Web Design and
+              <br />
+              Online Marketing Services
+            </span>
           </h1>
           <p className="text-gray-600">
             Having a great website is not the only solution to take your
@@ -39,8 +41,8 @@ export default function services() {
             your services or products.
           </p>
         </div>
-        <div className="flex flex-wrap lg:items-stretch h-full gap-y-6">
-          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
+        <div className="flex h-full flex-wrap gap-y-6 lg:items-stretch">
+          <div className="text-left sm:w-6/12 sm:px-3 lg:w-4/12">
             <Card
               cardTitle={"Brand Strategy"}
               cardDescription={
@@ -50,7 +52,7 @@ export default function services() {
               <MdRateReview color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
+          <div className="text-left sm:w-6/12 sm:px-3 lg:w-4/12">
             <Card
               cardTitle={"Visibility Strategy"}
               cardDescription={
@@ -60,7 +62,7 @@ export default function services() {
               <FaChartLine color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
+          <div className="text-left sm:w-6/12 sm:px-3 lg:w-4/12">
             <Card
               cardTitle={"Brand Visuals"}
               cardDescription={
@@ -70,7 +72,7 @@ export default function services() {
               <IoGameController color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
+          <div className="text-left sm:w-6/12 sm:px-3 lg:w-4/12">
             <Card
               cardTitle={"Website Design & Development"}
               cardDescription={
@@ -80,7 +82,7 @@ export default function services() {
               <FaCode color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
+          <div className="text-left sm:w-6/12 sm:px-3 lg:w-4/12">
             <Card
               cardTitle={"Professional Copywriting"}
               cardDescription={
@@ -90,7 +92,7 @@ export default function services() {
               <TiSortAlphabetically color="white" size="36" />
             </Card>
           </div>
-          <div className="sm:w-6/12 lg:w-4/12 sm:px-3 text-left">
+          <div className="text-left sm:w-6/12 sm:px-3 lg:w-4/12">
             <Card
               cardTitle={"Launch, Training & Support"}
               cardDescription={
@@ -101,7 +103,9 @@ export default function services() {
             </Card>
           </div>
         </div>
-        <div className="text-center hidden sm:block"><Button btnTitle={`Hire Me`} btnLink={`/contact`} /></div>
+        <div className="hidden text-center sm:block">
+          <Button btnTitle={`Hire Me`} btnLink={`/contact`} />
+        </div>
       </div>
     </>
   );
