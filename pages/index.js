@@ -84,11 +84,11 @@ export default function index() {
             </linearGradient>
           </defs>
         </svg> */}
-        <section className="hero bg-gray-50 bg-hero-bg bg-right-bottom bg-no-repeat px-4 py-24 sm:py-0 sm:pt-56 sm:pb-24">
+        <section className="hero bg-gray-50 sm:bg-hero-bg bg-right-bottom bg-no-repeat py-24 sm:py-0 sm:pt-56 sm:pb-24">
           <div className="container px-4">
-            <div className="flex flex-col items-center gap-x-6 space-y-8 sm:grid sm:grid-cols-2 sm:space-y-0">
+            <div className="flex flex-col items-center space-y-8 sm:grid sm:grid-cols-2 sm:space-y-0">
               <div className="col-left space-y-4">
-                <h1 className="text-4xl font-bold sm:text-[5.5rem] sm:leading-none">
+                <h1 className="text-5xl font-bold sm:text-[5.5rem] sm:leading-none">
                   <span className="to bg-[#f9bc2c] bg-gradient-to-t from-[#f74c06] bg-clip-text text-transparent">
                     Website Design & Branding
                   </span>
@@ -109,7 +109,7 @@ export default function index() {
           </div>
         </section>
 
-        <section className="homePageServices my-2 px-4 sm:my-20 xl:px-0">
+        <section className="homePageServices my-6 px-4 sm:my-20 xl:px-0">
           <div className="container">
             <div className="w-full gap-6 xl:flex">
               <div className="w-full xl:w-4/12">
