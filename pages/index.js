@@ -84,7 +84,7 @@ export default function index() {
             </linearGradient>
           </defs>
         </svg> */}
-        <section className="hero bg-gray-50 sm:bg-hero-bg bg-right-bottom bg-no-repeat py-24 sm:py-0 sm:pt-56 sm:pb-24">
+        <section className="hero bg-gray-50 bg-right-bottom bg-no-repeat py-24 sm:bg-hero-bg sm:py-0 sm:pt-56 sm:pb-24">
           <div className="container px-4">
             <div className="flex flex-col items-center space-y-8 sm:grid sm:grid-cols-2 sm:space-y-0">
               <div className="col-left space-y-4">
@@ -95,9 +95,9 @@ export default function index() {
                 </h1>
                 <div className="intro text-gray-600 sm:text-base  sm:leading-8">
                   <p className="text-xl leading-relaxed">
-                    <span className="text-3xl">👋</span> Hi! I'm' Saad, I work
-                    with ambitious business owners helping them with branding,
-                    <strong>website designs</strong> and modern{" "}
+                    Hi!<span className="text-3xl">👋</span> I'm' Saad, I work
+                    with ambitious business owners helping them with branding, 
+                    <strong> website designs</strong> and modern{" "}
                     <strong>digital marketing</strong> tools to help them grow
                     their business by making more sales by custom solutions
                     designed for their unique business.
