@@ -84,27 +84,35 @@ export default function index() {
             </linearGradient>
           </defs>
         </svg> */}
-        <section className="hero bg-gray-50 bg-right-bottom bg-no-repeat py-24 sm:bg-hero-bg sm:py-0 sm:pt-56 sm:pb-24">
+        <section className="hero bg-gray-50 bg-right-bottom bg-no-repeat pt-24 sm:py-0 sm:pt-56">
           <div className="container px-4">
-            <div className="flex flex-col items-center space-y-8 sm:grid sm:grid-cols-2 sm:space-y-0">
-              <div className="col-left space-y-4">
-                <h1 className="text-5xl font-bold sm:text-[5.5rem] sm:leading-none">
-                  <span className="to bg-[#f9bc2c] bg-gradient-to-t from-[#f74c06] bg-clip-text text-transparent">
-                    Website Design & Branding
-                  </span>
+            <div className="mx-auto w-full items-center space-y-8 sm:w-6/12 sm:space-y-0 sm:text-center">
+              <h1 className="text-5xl font-bold text-gray-800 sm:text-[3rem] sm:leading-none">
+                  Website Design & Branding
                 </h1>
-                <div className="intro text-gray-600 sm:text-base  sm:leading-8">
+                <div className="intro text-gray-600 sm:text-base sm:leading-8">
                   <p className="text-xl leading-relaxed">
                     Hi!<span className="text-3xl">👋</span> I'm' Saad, I work
-                    with ambitious business owners helping them with branding, 
+                    with ambitious business owners helping them with branding,
                     <strong> website designs</strong> and modern{" "}
                     <strong>digital marketing</strong> tools to help them grow
                     their business by making more sales by custom solutions
                     designed for their unique business.
                   </p>
                 </div>
-                <Button btnTitle="Let's Make it Real!" btnLink="/contact" />
-              </div>
+                <Button btnTitle="Hire me" btnLink="/contact" />
+            </div>
+            <div className="w-10/12 mx-auto">
+              <Image
+                src="/website-screen-mockup.png"
+                alt="freelance web designer"
+                width={1200}
+                height={609}
+                layout="responsive"
+                placeholder="blur"
+                className='w-2/12'
+                blurDataURL="data:image/jpeg;base64,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"
+              />
             </div>
           </div>
         </section>
