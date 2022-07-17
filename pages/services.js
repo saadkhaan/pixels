@@ -23,9 +23,9 @@ export default function services() {
         <link rel="canonical" href="https://pixelsbit.com/services" />
       </Head>
       <div className="container px-4 pt-32 sm:py-0 sm:pt-48 sm:pb-24">
-        <div className="mb-12 w-8/12">
+        <div className="mb-12 w-12/12">
           <h1 className="mb-6 text-4xl font-bold sm:text-[5.5rem] sm:leading-none">
-            <span className="to bg-[#f9bc2c] bg-gradient-to-t from-[#f74c06] bg-clip-text text-transparent">
+            <span>
               Web Design and
               <br />
               Online Marketing Services
