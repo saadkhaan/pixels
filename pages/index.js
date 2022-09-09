@@ -91,12 +91,12 @@ export default function index() {
                   Website Design & Branding
                 </h1>
                 <div className="intro text-gray-600 sm:text-base sm:leading-8">
-                  <p className="text-xl leading-relaxed">
+                  <p className="text-xl leading-relaxed mb-6">
                     Hi!<span className="text-3xl">👋</span> I'm' Saad, I work
                     with ambitious business owners helping them with branding,
-                    <strong> website designs</strong> and modern{" "}
+                    <strong> custom e-commerce website development</strong>, <strong>building Shopify stores</strong> and modern{" "}
                     <strong>digital marketing</strong> tools to help them grow
-                    their business by making more sales by custom solutions
+                    their business by making more sales with custom solutions
                     designed for their unique business.
                   </p>
                 </div>
@@ -160,7 +160,7 @@ export default function index() {
 
               <div className="w-full xl:w-8/12">
                 <div className="flex h-full flex-wrap gap-y-6 lg:items-stretch">
-                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12 transition ease-in-out hover:-translate-y-1">
                     <Card
                       cardTitle={"Brand Strategy"}
                       cardDescription={
@@ -170,7 +170,7 @@ export default function index() {
                       <MdRateReview color="white" size="36" />
                     </Card>
                   </div>
-                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12 transition ease-in-out hover:-translate-y-1">
                     <Card
                       cardTitle={"Visibility Strategy"}
                       cardDescription={
@@ -180,7 +180,7 @@ export default function index() {
                       <FaChartLine color="white" size="36" />
                     </Card>
                   </div>
-                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12 transition ease-in-out hover:-translate-y-1">
                     <Card
                       cardTitle={"Brand Visuals"}
                       cardDescription={
@@ -190,7 +190,7 @@ export default function index() {
                       <IoGameController color="white" size="36" />
                     </Card>
                   </div>
-                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12 transition ease-in-out hover:-translate-y-1">
                     <Card
                       cardTitle={"Website Design & Development"}
                       cardDescription={
@@ -200,7 +200,7 @@ export default function index() {
                       <FaCode color="white" size="36" />
                     </Card>
                   </div>
-                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12 transition ease-in-out hover:-translate-y-1">
                     <Card
                       cardTitle={"Professional Copywriting"}
                       cardDescription={
@@ -210,7 +210,7 @@ export default function index() {
                       <TiSortAlphabetically color="white" size="36" />
                     </Card>
                   </div>
-                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12">
+                  <div className="text-left sm:w-6/12 sm:px-3 lg:w-6/12 transition ease-in-out hover:-translate-y-1">
                     <Card
                       cardTitle={"Launch, Training & Support"}
                       cardDescription={
